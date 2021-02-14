@@ -11,6 +11,6 @@ describe('sayHello', () => {
     });
 
     it('should take an argument and return a greeting', () => {
-        expect(sayHello('futureproof')).to.include('Hello, futureproof!');
+        expect(sayHello('futureproof')).to.include('Hello there, futureproof!');
     })
 });
